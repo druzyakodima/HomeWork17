@@ -11,5 +11,6 @@ public class SwapElement<E> {
         array[2] = element;
 
         System.out.println(Arrays.toString(array));
+
     }
 }
