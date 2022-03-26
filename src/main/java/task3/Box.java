@@ -3,7 +3,9 @@ package task3;
 import java.util.ArrayList;
 
 class TestBox {
+
     public static void main(String[] args) {
+
         Box<Apple> appleBox = new Box<>();
         appleBox.putBox(new Apple());
         appleBox.putBox(new Apple());
@@ -13,7 +15,6 @@ class TestBox {
         orangeBox.putBox(new Orange());
         orangeBox.putBox(new Orange());
         orangeBox.putBox(new Orange());
-
 
         System.out.println("Weight orange = " + orangeBox.getWeight());
         System.out.println("Weight apple = " + appleBox.getWeight());

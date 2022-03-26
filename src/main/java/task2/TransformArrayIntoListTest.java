@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 public class TransformArrayIntoListTest {
+
     public static void main(String[] args) {
 
         TransformArrayIntoList<Double> transformArrayIntoList = new TransformArrayIntoList<>();
@@ -21,6 +22,7 @@ public class TransformArrayIntoListTest {
 class TransformArrayIntoList<E> {
 
     public void transform(E[] arr) {
+
         ArrayList<E> list = new ArrayList<>(Arrays.asList(arr));
         System.out.println(list);
 
